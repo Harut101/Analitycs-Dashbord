@@ -1,0 +1,16 @@
+.ChartContainer{
+    width: 550px;
+    margin-top: 80px; 
+    display: flex;
+    flex-direction: column;
+    margin-right: 80px;
+}
+
+.ChartContainer .dateContainer{
+    margin-left: 30px;
+
+}
+
+.ChartContainer .recharts-wrapper{
+   margin-top: 20px;
+}

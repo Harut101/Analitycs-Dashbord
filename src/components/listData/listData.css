@@ -1,0 +1,89 @@
+.listBlock ul{
+    list-style: none;
+    font-weight: bold;
+}
+
+.listBlock ul li{
+   padding: 10px 10px;
+   margin-right: 39px;
+   position: relative;
+}
+
+.listBlock ul div{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+ }
+ .listBlock ul div .dataAnalis{
+     width: 70px;
+     display: flex;
+     align-items: center;
+     justify-content: flex-start;
+ }
+
+ .listBlock ul div .dataName{
+    width: 270px;
+    display: flex;
+    justify-content: unset;
+ 
+ }
+
+ .listBlock ul div .dataState{
+    width: 100px;
+    height: 25px;
+    position: relative;
+ }
+
+ .listBlock ul div .dataState.bad{
+    flex-direction: row-reverse;
+ }
+
+ .listBlock ul div .dataState .good{
+     background: green;
+     height: 20px;
+     max-width: 50% !important;
+ }
+
+ .listBlock ul div .dataState .bad{
+    background: red;
+    height: 20px;
+    max-width: 50% !important;
+}
+
+.listBlock ul div .dataState .zero{
+    background: grey;
+    height: 20px;
+    max-width: 50% !important;
+}
+
+.listBlock ul div .dataState .block{
+    background: white;
+    width: 50%;
+    height: 20px;
+}
+
+.listBlock ul div .dataState .bad-container{
+   display: flex;
+   flex-direction: row-reverse;
+}
+
+.listBlock ul div .dataState .result{
+    position: absolute;
+    top: -17px;
+    left: 50%;
+    font-size: smaller;
+    color: gray;
+    display: none;
+}
+.listBlock ul div .dataState:hover .result{
+    display: block;
+}
+
+.listBlock .allInfo{
+    font-weight: bold;
+    margin-left: 45px;
+}
+
+.listBlock .allInfo span{
+    margin-left: 45px;
+}

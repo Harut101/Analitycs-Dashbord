@@ -1,0 +1,14 @@
+.ListContainer{
+    width: 550px;
+    margin-top: 50px; 
+}
+
+.ListContainer .dropdown{
+    display: flex;
+
+}
+
+.ListContainer .dropdown div{
+   margin-left: 10px;
+    
+}
