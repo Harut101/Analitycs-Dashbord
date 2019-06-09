@@ -25,4 +25,5 @@
 
 .dropdown{
     margin-left: 45px;
+    z-index: 10;
 }
