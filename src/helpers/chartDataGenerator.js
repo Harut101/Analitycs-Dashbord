@@ -12,9 +12,9 @@ export function chartDataGenerator(date , data){
 
        amt -= 100;
        
-       nextDate.setDate(nextDate.getDate() + 1);
+       nextDate.setDate(nextDate.getDate() - 1);
 
     }
 
-   return chartData;
+   return chartData.reverse();
 }
